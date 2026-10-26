@@ -136,7 +136,7 @@ export function Portfolio() {
   return (
     <main className="portfolio-shell" id="top">
       <header className="portfolio-header">
-        <a className="brand-lockup" href="#top" onClick={closeMenu} aria-label="ANONYMIKETECH home"><span className="brand-mark">+</span><span>ANONYMIKE</span><b>TECH</b></a>
+        <a className="brand-lockup" href="#top" onClick={closeMenu} aria-label="ANONYMIKETECH home"><span>ANONYMIKE</span><b>TECH</b></a>
         <nav className={menuOpen ? 'portfolio-nav is-open' : 'portfolio-nav'} aria-label="Primary navigation">
           <a href="#about" onClick={closeMenu}>About</a><a href="#services" onClick={closeMenu}>Services</a><a href="#work" onClick={closeMenu}>Work</a><a href="#contact" onClick={closeMenu}>Contact</a><button className="mobile-cv-link" type="button" onClick={openCv}>View CV</button>
         </nav>
